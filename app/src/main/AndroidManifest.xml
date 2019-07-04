@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ntiurfu.Dranitsin.sergey.NotifySpeach">
+    package="com.ntiurfu.Dranitsin.sergey.NotifySpeech">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.ntiurfu.Dranitsin.sergey.NotifySpeach.MainActivity">
+        <activity android:name="com.ntiurfu.Dranitsin.sergey.NotifySpeech.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,7 @@
         </activity>
 
         <service
-            android:name="com.ntiurfu.Dranitsin.sergey.NotifySpeach.NotificationListener"
+            android:name="com.ntiurfu.Dranitsin.sergey.NotifySpeech.NotificationListener"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />
